@@ -1,13 +1,13 @@
 package utm.Task3;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Main {
 
     public static void main(String[] args) {
-        NewClass Nume = new NewClass();
-        Nume.getName();
-        NewClass LastName = new NewClass();
-        LastName.getLastName();
+
+        TestInterface name1 = new NewClass();
+        name1.getName();
+
+        TestInterface lastName = new NewClass();
+        lastName.getLastName();
     }
 }
